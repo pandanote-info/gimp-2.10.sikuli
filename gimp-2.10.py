@@ -6,7 +6,7 @@
 click("1542506859041.png")
 wait(2)
 click("1542509349902.png")
-wait(10)
+wait(13)
 click(Pattern("1542510352713.png").targetOffset(-232,14))
 wait(1)
 click("1542510443808.png")
