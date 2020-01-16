@@ -1,8 +1,8 @@
-# GIMP-2.10.8を起動し、スクリーンショットを取得するためのJythonのスクリプト。
-# SikuliX-1.1.4 (2018-10-31_16:29)でのみテストを行っています。
+# GIMP-2.10.10を起動し、スクリーンショットを取得するためのJythonのスクリプト。
+# SikuliX-2.0.1でのみテストを行っています。
 # URL: https://pandanote.info/?p=3338
-# Script to invoke GIMP-2.10.8 and to take a screenshot by it on SikuliX environment.
-# This script is tested with SikuliX-1.1.4 (2018-10-31_16:29).
+# Script to invoke GIMP-2.10.10 and to take a screenshot by it on SikuliX environment.
+# This script is tested with SikuliX-2.0.1.
 click("1542506859041.png")
 wait(2)
 click("1542509349902.png")
@@ -13,9 +13,9 @@ click("1542510443808.png")
 wait(1)
 click("1542510526572.png")
 wait(1)
-click(Pattern("1542510591307.png").similar(0.81))
+click(Pattern("1579143851992.png").targetOffset(-29,-3))
 wait(1)
-click("1542510609272.png")
+click(Pattern("1579143983163.png").targetOffset(10,10))
 type(Key.BACKSPACE)
 type('10')
-click(Pattern("1542510757822.png").similar(0.59).targetOffset(1,52))
+click(Pattern("1542510757822.png").similar(0.37).targetOffset(1,52))
